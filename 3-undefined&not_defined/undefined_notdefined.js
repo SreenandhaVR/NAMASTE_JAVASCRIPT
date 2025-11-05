@@ -16,11 +16,23 @@
 // console.log(a);
 // Here it will show undefined first and then 7, because variable a is declared first and then assigned a value
 
-var a;
-console.log(a);
- if(a===undefined){
-    console.log("a is undefined");
- }
- else{
-  console.log("a is not undefined");
- }
+// var a;
+// console.log(a);
+//  if(a===undefined){
+//     console.log("a is undefined");
+//  }
+//  else{
+//   console.log("a is not undefined");
+//  }
+ // Here it will show undefined and then "a is undefined", because variable a is declared but not assigned any value
+
+//  var a;
+// console.log(a);
+// a=10;
+//  if(a===undefined){
+//     console.log("a is undefined");
+//  }
+//  else{
+//   console.log("a is not undefined");
+//  }
+ // Here it will show undefined and then "a is not undefined", because variable a is declared and then assigned a value
