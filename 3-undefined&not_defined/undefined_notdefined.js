@@ -36,3 +36,16 @@
 //   console.log("a is not undefined");
 //  }
  // Here it will show undefined and then "a is not undefined", because variable a is declared and then assigned a value
+
+ //Javascript also has a special value called 'not defined' which is different from 'undefined'
+ //When we try to access a variable that has not been declared, it results in a 'not defined' error
+ //Javascript engine throws a ReferenceError indicating that the variable is not defined
+ //Javascript is loosely typed language, so it allows us to use variables without declaring them first
+ var a;
+ console.log(a); 
+
+ a=100;
+ console.log(a);
+ a="Hi Sreenandha";
+ console.log(a);
+ // Here it will show undefined, 100 and "Hi Sreenandha", because variable a is declared first and then assigned different values of different types
